@@ -1,105 +1,54 @@
 # Ya-Ting Yang | Bioinformatics & Machine Learning
 
-**Biological Questions. Computational Thinking.**
+**Biological questions. Computational thinking.**
 
-Welcome to my research portfolio!
+My research portfolio brings together biomedical research, bioinformatics, statistical analysis, and machine learning.
 
-I have an M.S. in Bioinformatics from Brandeis University, along with academic training in Biotechnology and Medical Technology. My background combines biomedical wet-lab research in cancer and kidney disease with computational data analysis, statistical modeling, and machine learning.
+My focus is on computational research: organizing complex biomedical data, developing analysis workflows, evaluating machine learning models, and connecting computational results with biological questions.
 
-My focus is on organizing complex biomedical data, developing analysis workflows, evaluating machine learning models, and connecting computational findings with biological questions.
+My background combines wet-lab research in cancer and kidney disease with an M.S. in Bioinformatics from Brandeis University, giving me a practical understanding of experimental conditions and how biological data are generated.
 
-🌐 **[Visit My Research Portfolio](https://ya-ting-yang-research.mornicayang.chatgpt.site/)**
+## Portfolio
 
-## Research Interests
+The website includes my academic background, selected academic projects, research interests, publication, and contact information. It supports English and Traditional Chinese, expandable project descriptions, and email copying.
 
-- Machine Learning for Biomedical Data
-- Bioinformatics and Computational Biology
-- Molecular Data Analysis and Drug Discovery
-- Reliable and Interpretable Machine Learning
-- Privacy-Preserving Machine Learning
-- Scalable Computational Methods for Biological Data
+[Original research portfolio](https://ya-ting-yang-research.mornicayang.chatgpt.site/)
 
-## Selected Research Projects
+## Files
 
-### 2025
-
-**1. RNA-seq Cancer Classification Using TCGA Data**
-- Analyzed TCGA-KIRC gene expression data using R.
-- Performed differential expression analysis, PCA, and feature selection.
-- Compared logistic regression, SVM, neural network, and random forest classifiers.
-- Evaluated model performance using ROC/AUC, F1 score, and other classification metrics.
-
-**2. Drug Repositioning Workflow for Diabetic Kidney Disease**
-- Developed a computational screening workflow targeting ASK1 (MAP3K5).
-- Combined molecular docking, RDKit-based molecular analysis, and random forest classification.
-- Screened 500 approved drugs and prioritized four candidates for further investigation.
-- Proposed experimental validation strategies.
-
-**3. NGS Analysis Pipeline Using Python**
-- Developed a Python workflow for FASTQ quality assessment and genome alignment.
-- Integrated Biopython, BWA-MEM, and SAMtools.
-- Generated sorted and indexed BAM files for downstream analysis.
-
-**4. Blood–Brain Barrier Penetration Prediction**
-- Developed a random forest classifier using ECFP4 molecular fingerprints.
-- Applied five-fold stratified cross-validation.
-- Achieved a mean cross-validation ROC AUC of 0.906 on the coursework dataset.
-- Explored predictions for melatonin receptor ligands and ALK compounds.
-
-### 2024
-
-**5. Proteomics Data Analysis of Human Fetal Gliomas**
-- Reanalyzed publicly available label-free quantitative proteomics data.
-- Performed missing-value handling, normalization, protein comparisons, and PCA.
-- Explored protein interaction networks and pathway enrichment.
-
-**6. Single-Cell Flow Cytometry Data Analysis**
-- Analyzed FCS data using R and Bioconductor.
-- Performed plate-level quality assessment, cell gating, and fluorescence analysis.
-- Evaluated YFP expression and caspase activation using control-derived thresholds.
-
-## Technical Skills
-
-| Category | Tools & Methods |
+| File | Purpose |
 |---|---|
-| Programming | Python, R, SQL, Bash, Git |
-| Machine Learning | scikit-learn, tidymodels, Random Forest, SVM, Neural Networks |
-| Statistical Analysis | Regression, Survival Analysis, PCA, Clustering, Cross-Validation |
-| Bioinformatics | Biopython, DESeq2, SAMtools, BWA, BEDTools, IGV |
-| Cheminformatics | RDKit, Smina, PyMOL, Molecular Docking |
-| Data Analysis | pandas, NumPy, ggplot2, Bioconductor |
-| Biological Data | RNA-seq, Proteomics, Flow Cytometry, Molecular Data |
+| `index.html` | Website content and bilingual text |
+| `styles.css` | Layout, typography, and responsive styles |
+| `app.js` | Language switching and email copying |
+| `assets/` | Portrait images |
+| `.nojekyll` | Serve the static website without Jekyll processing |
 
-## Future Research Directions
+## Publish with GitHub Pages
 
-I am particularly interested in developing computational methods that improve the reliability, interpretability, and efficiency of machine learning for biomedical applications.
+1. Extract the ZIP archive on your computer.
+2. Open your GitHub repository and choose **Add file → Upload files**.
+3. Upload the contents of the extracted folder, including `index.html`, `styles.css`, `app.js`, and the entire `assets` folder. `index.html` must be at the repository root, not inside another folder. Upload `.nojekyll` too if it is visible.
+4. Choose **Commit changes**.
+5. Open **Settings → Pages**.
+6. Under **Build and deployment**, choose **Deploy from a branch**.
+7. Select **main** (or the branch you uploaded to) and **/(root)**, then click **Save**.
+8. Wait for the deployment to finish. The Pages settings will display your website URL.
 
-My research interests include model uncertainty, molecular data integration, privacy-preserving machine learning, and scalable analysis of complex biological datasets.
+For a repository named `USERNAME.github.io`, the address is `https://USERNAME.github.io/`. For another repository name, the address is `https://USERNAME.github.io/REPOSITORY/`. Relative asset paths support both forms.
 
-## Publication
+No npm installation or build step is required. Upload the extracted files, not the ZIP itself.
 
-**Inhibition of LSD1 epigenetically attenuates oral cancer growth and metastasis**
+## Edit the website
 
-Alsaqer SF, Tashkandi MM, Kartha VK, Yang YT, et al.
+Edit English content and the corresponding `data-zh` attributes in `index.html`. Edit `styles.css` to change the appearance. Commit your changes to the publishing branch to update GitHub Pages.
 
-*Oncotarget*, 2017.
-
-DOI: [10.18632/oncotarget.19637](https://doi.org/10.18632/oncotarget.19637)
+The export preserves the original website content and functionality. Metadata pointing to the original hosting address has been removed so it can be hosted at your chosen GitHub Pages address.
 
 ## Contact
 
-**Ya-Ting Yang**
-
-M.S. Bioinformatics, Brandeis University
-
-Massachusetts, USA
-
-Email: [mornicayang@gmail.com](mailto:mornicayang@gmail.com)
-
-Research Portfolio: [ya-ting-yang-research.mornicayang.chatgpt.site](https://ya-ting-yang-research.mornicayang.chatgpt.site/)
-
----
-
-*The projects presented here were completed as part of academic coursework and research training. Results are exploratory unless independently validated.*
+Ya-Ting Yang · Massachusetts, USA  
+M.S. Bioinformatics, Brandeis University  
+[mornicayang@gmail.com](mailto:mornicayang@gmail.com)
 
 © 2026 Ya-Ting Yang
